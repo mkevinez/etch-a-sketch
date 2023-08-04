@@ -1,11 +1,23 @@
+body {
+    text-align: center;
+    background-color: lightgrey;
+}
+
 #sketch-window {
-    width: 960px;
-    height: 960px;
+    width: 720px;
+    height: 720px;
     display: flex;
     flex-wrap: wrap;
+    margin: auto;
+    background-color: white;
+    padding: 25px;
 }
 
 .square {
     flex-grow: 0;
     flex-shrink: 0;
+}
+
+.color-change {
+    background-color: black;
 }
